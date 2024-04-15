@@ -19,7 +19,7 @@ def smart_div(func):
         if a < b:
             a,b = b,a
             return func(a,b)
-        print(a/b,'hello')
+        print(a/b)
     return inner
 
 div1 = smart_div(div)
